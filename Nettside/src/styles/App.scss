@@ -182,3 +182,26 @@
     border-right-color: var(--border);
   }
 }
+
+.muharremProfil {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.muharremProfil img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.muharremProfil a {
+  color: blue;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
