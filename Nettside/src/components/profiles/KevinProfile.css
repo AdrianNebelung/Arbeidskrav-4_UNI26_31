@@ -1,0 +1,35 @@
+.kevin-profile {
+  border: 3px solid black;
+  padding: 1.5rem;
+  max-width: 280px;
+  margin: 1rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.kevin-profile:hover {
+  transform: scale(1.05);
+}
+
+.kevin-profile img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.kevin-profile h2 {
+  margin-bottom: 10px;
+}
+
+.kevin-profile a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 10px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
