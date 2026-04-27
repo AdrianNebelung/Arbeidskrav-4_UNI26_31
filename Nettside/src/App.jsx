@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import ArbeidskravListe from "./components/ArbeidskravListe";
+import Adriankort from "./components/Adrian/Adriankort";
 import "./styles/App.scss";
 
 function App() {
