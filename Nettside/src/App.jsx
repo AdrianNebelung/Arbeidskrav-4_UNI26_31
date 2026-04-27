@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import ArbeidskravListe from "./components/ArbeidskravListe";
 import Adriankort from "./components/Adrian/Adriankort";
 import "./styles/App.scss";
+import Enes_Kort from "./components/Enes/EnesKort";
 
 function App() {
   const [arbeidskrav, setArbeidskrav] = useState([]);
@@ -14,6 +15,9 @@ function App() {
       <main>
         <section>
           <Adriankort/>
+        </section>
+        <section>
+          <Enes_Kort/>
         </section>
 
         <section>
