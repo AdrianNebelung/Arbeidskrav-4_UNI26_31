@@ -1,3 +1,5 @@
+import "./MuharremProfil.scss";
+
 export default function MuharremProfil() {
   return (
     <li>
