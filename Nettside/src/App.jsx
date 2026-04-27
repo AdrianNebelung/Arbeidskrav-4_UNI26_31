@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import ArbeidskravListe from "./components/ArbeidskravListe";
 import Adriankort from "./components/Adrian/Adriankort";
 import KevinProfile from "./components/Kevin/KevinProfile";
+import MuharremProfil from "./components/Muharrem/MuharremProfil";
 import "./styles/App.scss";
 
 function App() {
@@ -10,12 +11,13 @@ function App() {
 
   return (
     <>
-      <Header gruppenummer="31" />
 
+      <Header gruppenummer="31" />
       <main>
         <section>
           <Adriankort/>
           <KevinProfile />
+          <MuharremProfil />
         </section>
 
         <section>
