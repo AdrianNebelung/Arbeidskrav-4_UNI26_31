@@ -23,7 +23,7 @@ export default function ArbeidskravListe() {
                 {krav.map(item => (
                     <li key={item._id}>
                         <h3>{item.tittel}</h3>
-                        <p>{item.breskrivelse}</p>
+                        <p>{item.beskrivelse}</p>
                     </li>
                 ))}
             </ul>
