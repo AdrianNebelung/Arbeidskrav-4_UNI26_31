@@ -11,7 +11,7 @@ export default function Enes_Kort() {
         />
 
         <p><strong>Enes Karatas</strong></p>
-        <p><a href="mailto:eneska@hiof.no">Send meg en epost!</a></p>
+        <p><a href="mailto:enes.karatas@hiof.no">Send meg en epost!</a></p>
         <p>Bachelorstudium i informasjonssystemer</p>
 
 
