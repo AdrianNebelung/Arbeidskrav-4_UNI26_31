@@ -1,4 +1,4 @@
-import "./AdrianSass/Adrianscss.scss";
+
 
 export default function Adriankort() {
     return (
