@@ -1,4 +1,4 @@
-import "../../styles/EnesKort.css";
+import "./EnesKort.scss";
 import donkeyKong from "../../assets/Donkey-Kong.jpg";
 
 export default function Enes_Kort() {
