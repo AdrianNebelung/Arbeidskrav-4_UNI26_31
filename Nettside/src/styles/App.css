@@ -66,4 +66,28 @@ footer {
   color: white;
   padding: 15px;
   font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+  main {
+    padding: 20px 15px;
+  }
+  section h2 {
+    font-size: 22px;
+  }
+  main section {
+    grid-template-columns: 1fr;
+  }
+  article {
+    padding: 15px;
+  }
+  article img {
+    height: 180px;
+  }
+  footer {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=App.css.map */
