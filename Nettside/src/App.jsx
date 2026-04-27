@@ -2,7 +2,7 @@ import { useState } from "react";
 import Header from "./components/Header";
 import ArbeidskravListe from "./components/ArbeidskravListe";
 import Adriankort from "./components/Adrian/Adriankort";
-import KevinProfile from "./components/profiles/KevinProfile";
+import KevinProfile from "./components/Kevin/KevinProfile";
 import "./styles/App.scss";
 
 function App() {
