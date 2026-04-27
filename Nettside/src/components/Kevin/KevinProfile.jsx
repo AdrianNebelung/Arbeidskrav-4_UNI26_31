@@ -1,4 +1,4 @@
-import "./KevinProfile.css";
+import "./KevinProfile.scss";
 
 export default function KevinProfile() {
   return (
