@@ -12,7 +12,7 @@ export default function ArbeidskravListe() {
     const [krav, setKrav] = useState([]);
 
     useEffect(() => {
-        client.fetch('*[_type == "arbeidskrav"]').then(data => setKrav(data));
+        client.fetch('*[_type == "arbeidskrav"] | order(nummer asc)').then(data => setKrav(data));
     }, []);
 
 
