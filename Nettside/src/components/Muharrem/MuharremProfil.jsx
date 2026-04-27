@@ -2,7 +2,6 @@ import "./MuharremProfil.scss";
 
 export default function MuharremProfil() {
   return (
-    <li>
       <article className="muharremProfil">
         <img src="/src/assets/hero.png" alt="profil bilde" />
 
@@ -13,6 +12,5 @@ export default function MuharremProfil() {
 
         <a href="muharrem@hiof.no">muharrem@hiof.no</a>
       </article>
-    </li>
   )
 }
