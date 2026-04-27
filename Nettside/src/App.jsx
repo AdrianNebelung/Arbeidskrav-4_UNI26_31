@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import ArbeidskravListe from "./components/ArbeidskravListe";
+import Adriankort from "./components/Adrian/Adriankort";
 import "./styles/App.scss";
 
 function App() {
@@ -12,11 +13,10 @@ function App() {
       <Header gruppenummer="31"/>
       <main>
         <section>
-
+          <Adriankort/>
         </section>
 
         <section>
-          <h2>Arbeidskrav i UIN</h2>
           <ArbeidskravListe krav={arbeidskrav}/>
         </section>
       </main>

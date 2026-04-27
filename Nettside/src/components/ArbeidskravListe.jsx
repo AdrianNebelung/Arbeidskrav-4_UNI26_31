@@ -1,12 +1,15 @@
-export default function ArbeidskravListe({ krav }) {
+import { useState } from "react";
+import { createClient } from "@sanity/client";
+import { useEffect } from "react";
+
+export default function ArbeidskravListe() {
+
     return (
-        <ul>
-            {krav.map(k => (
-                <li key={k._id}>
-                    <h3>{k.tittel}</h3>
-                    <p>{k.beskrivelse}</p>
-                </li>
-            ))}
-        </ul>
+        <section>
+            <h2>Arbeidskrav i UIN</h2>
+            <ul>
+    
+            </ul>
+        </section>
     )
 }
