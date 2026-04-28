@@ -8,10 +8,7 @@ export default function KevinProfile() {
       </header>
 
       <figure>
-        <img
-          src="manicon.png"
-          alt="Illustrasjon for Kevin sin profil"
-        />
+        <img src="/src/assets/manicon.png" alt="Illustrasjon for Kevin sin profil" />
         <figcaption>Gruppemedlem</figcaption>
       </figure>
 
