@@ -9,7 +9,7 @@ export default function KevinProfile() {
 
       <figure>
         <img
-          src="https://placehold.co/300x300"
+          src="manicon.png"
           alt="Illustrasjon for Kevin sin profil"
         />
         <figcaption>Gruppemedlem</figcaption>
