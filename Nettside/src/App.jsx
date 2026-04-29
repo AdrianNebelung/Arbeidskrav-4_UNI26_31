@@ -14,7 +14,7 @@ function App() {
   return (
     <>
 
-      <Header gruppenummer="31" />
+      <Header />
       <main>
         <section>
           <Adriankort/>
